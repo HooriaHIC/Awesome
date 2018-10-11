@@ -61,7 +61,7 @@ const Contact = props => {
             <Form
               name="contact"
               onSubmit={handleSubmit}
-              netlify
+              method="POST" netlify
             >
               <FormItem label="Name">
                 {getFieldDecorator("name", {
