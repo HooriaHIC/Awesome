@@ -87,14 +87,7 @@ module.exports = {
         name: "pages"
       }
     },
-    {
-      resolve: 'gatsby-plugin-crisp-chat',
-      options: {
-        websiteId: 'YOUR_CRISP_WEBSITE_ID',
-        // Optional. Disables Crisp Chat during gatsby develop. Defaults to true.
-        enableDuringDevelop: false,
-      },
-    },
+    
     {
       resolve: `gatsby-source-filesystem`,
       options: {
