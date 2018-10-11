@@ -62,7 +62,9 @@ const Contact = props => {
               name="contact"
               onSubmit={handleSubmit}
               netlify-honeypot="bot-field"
-              method="POST" netlify
+              method="post" 
+     data-netlify="true" 
+    data-netlify-honeypot="bot-field
             >
               <FormItem label="Name">
                 {getFieldDecorator("name", {
