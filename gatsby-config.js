@@ -94,7 +94,7 @@ module.exports = {
         // Optional. Disables Crisp Chat during gatsby develop. Defaults to true.
         enableDuringDevelop: false,
       },
-    }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
