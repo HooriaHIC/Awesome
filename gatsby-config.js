@@ -56,6 +56,7 @@ module.exports = {
         component: require.resolve(`./src/layouts/`)
       }
     },
+
     {
       resolve: `gatsby-plugin-algolia`,
       options: {
@@ -87,6 +88,7 @@ module.exports = {
         name: "pages"
       }
     },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
