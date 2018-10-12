@@ -88,7 +88,11 @@ module.exports = {
         name: "pages"
       }
     },
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> e2fe3135f2763f2d2a2c5ed4c1bd405cc3caeeb9
     {
       resolve: `gatsby-source-filesystem`,
       options: {
